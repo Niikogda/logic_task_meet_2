@@ -1,29 +1,17 @@
-//#include <iostream>
-//#include <windows.h>
-//using namespace std;
-//int main()
-//{
-//	int grn;
-//	cout << "input grn: ";
-//	cin >> grn;
-//
-//	int cops;
-//	cout << "input cops: ";
-//	cin >> cops;
-//	
-//	cout << 
-//
-//}
-
 #include <iostream>
 #include <windows.h>
 using namespace std;
 
 int main()
 {
-    int hryvnia, kop;
-    cout << "¬вед≥ть суму в гривн€х ≥ коп≥йках: ";
-    cin >> hryvnia >> kop;
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    int hryvnia;
+    cout << "¬вед≥ть суму в гривн€х : ";
+    cin >> hryvnia;
+    int kop;
+    cout << "¬вед≥ть суму в коп≥йках: ";
+    cin >> kop;
 
     int extraHryvnia = kop / 100;
     int correctedKop = kop % 100;

@@ -17,5 +17,5 @@ int main()
 	cout << "ââåä³òü äîâæèíó(ñì) -> ";
 	cin >> c;
 	cout << "Îá’ºì: " << a * b * c << "êóá. ñì."
-	return()
+	return() 
 }

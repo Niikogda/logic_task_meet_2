@@ -16,5 +16,6 @@ int main()
 	int c;
 	cout << "ââåä³òü äîâæèíó(ñì) -> ";
 	cin >> c;
-	cout << a*b*c
+	cout << "Îá’ºì: " << a * b * c << "êóá. ñì."
+	return()
 }

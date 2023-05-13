@@ -1,7 +1,8 @@
 #include <iostream>
 #include <windows.h>
 int main() {
-
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
     double scale, distance_cm, distance_km;
 
    
